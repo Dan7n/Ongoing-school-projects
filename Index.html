@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>My awesome website</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">My Awesome Website!</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,14 +30,48 @@
                     </li>
                 </ul>
             </div>
-
-
-
-
-
         </nav>
 
-        <div></div>
+        <!-- carousel -->
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+                <li data-target="#mycarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Pictures/Daniel Caesar.jpg" alt="Artist Daniel Caesar singing into a microphone" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Daniel Caesar</h5>
+                        <p>Canadian R&B and Soul singer </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Pictures/Jacob Collier.jpg" alt="Artist Jacob Collier playing percussion instrumets at a live performance" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Jacob Collier</h5>
+                        <p>The Albert Einstein of music</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Pictures/Snarky puppy.jpg" alt="Band members wearing suites and posing for the camera" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Snarky Puppy</h5>
+                        <p>Incredible Grammy wining jazz band featuring one of my all time musical heros, Cory Henry</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Pictures/Tom Misch.jpg" alt="Artist Tom Misch playing an electric guitar" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tom Misch</h5>
+                        <p>English jazz artist and producer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div></div>
         <footer></footer>
 
