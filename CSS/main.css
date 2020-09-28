@@ -3,6 +3,7 @@ body {
     max-width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
+    height: 100% !important;
 }
 
 .navbar-brand {
@@ -17,6 +18,25 @@ body {
 
 .bg-dark {
     background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-dark:hover {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    border: 1px solid black;
+    background-color: #f8f9fa;
+    transition: 0.5s;
+    color: black !important;
+    border-radius: 6px;
+}
+
+.btn-light:hover {
+    background-color: #8b0000;
+    color: white !important;
+    transition: 0.5s;
 }
 
 .container-fluid {
@@ -46,4 +66,34 @@ body {
 
 .card {
     margin: 10px;
+}
+
+footer {
+    height: 16%;
+    background-color: #333;
+    width: 100%;
+    margin-top: 5%;
+    color: #fdfdfd;
+    margin-bottom: 0%;
+}
+
+#somePadding {
+    padding-top: 2%;
+}
+
+#hText {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+#pText {
+    font-size: 0, 8rem;
+    margin-bottom: 0;
+}
+
+.icon {
+    font-family: FontAwesome;
+    padding: 0;
+    font-size: 1.8rem;
+    background-color: #333 !important;
 }
