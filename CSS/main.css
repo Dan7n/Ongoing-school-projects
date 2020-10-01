@@ -12,6 +12,11 @@ body {
     font-size: 2.3rem;
 }
 
+.navbar-brand:hover {
+    color: #fb8b24 !important;
+    transition: 0.3s;
+}
+
 .form-inline {
     padding-right: 1em !important;
 }
@@ -22,7 +27,11 @@ body {
 
 .bg-dark:hover {
     background-color: rgba(0, 0, 0, 0.95) !important;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out !important;
+}
+
+.nav-link {
+    max-width: fit-content;
 }
 
 .nav-link:hover {
@@ -34,19 +43,27 @@ body {
 }
 
 .btn-light:hover {
-    background-color: #8b0000;
+    background-color: #0f4c5c;
     color: white !important;
     transition: 0.5s;
+    transition-timing-function: ease-in-out !important;
+    transform: scale(1.05);
 }
 
 .container-fluid {
     padding: 0 !important;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 993px) {
     form {
         display: none !important;
         visibility: hidden !important;
+    }
+    .nav-link:hover {
+        background-color: transparent;
+        color: #f8f9fa !important;
+        transform: scale(1.2);
+        border: 0;
     }
 }
 
@@ -66,6 +83,12 @@ body {
 
 .card {
     margin: 10px;
+    overflow: hidden;
+}
+
+.card>img:hover {
+    transform: scale(1.07);
+    transition: transform 1s ease;
 }
 
 footer {
