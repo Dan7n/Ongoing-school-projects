@@ -135,13 +135,55 @@
                     <p id="pText" class="font-weight-light">Add me on social and shoot me a DM! <span class="badge badge-pill badge-light">Psst! look to the right</span></p>
                 </div>
                 <div class="col-3">
-                    <button type="button" class="btn icon" id="makeMeBig">
-                        <i><a href="https://github.com/Dan7n" target="_blank" class="fab fa-github"></a></i>
+                    <button type="button" class="btn icon" data-toggle="modal" data-target="#modal1">
+                        <i class="fab fa-github"></i>
                     </button>
-                    <button type="button" class="btn icon" id="makeMeBig">
-                        <i><a href="https://www.linkedin.com/in/danny-isaac/" target="_blank" class="fab fa-linkedin"></a></i>
-                    </button>
+                    <!-- Modal for Github -->
+                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modallLabel">Cool!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>You're about to follow me on Github. Great idea! Please proceed.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success"><a href="https://github.com/Dan7n">Proceed</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- second model-->
+
+                    <button type="button" class="btn icon" data-toggle="modal" data-target="#modal2">
+                        <i class="fab fa-linkedin"></i>
+                    </button>
+                    <!-- Modal for linkedin -->
+                    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modallLabel">Cool!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>You're about to follow me on Linkedin. Great idea! Please proceed.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-success"><a href="https://www.linkedin.com/in/danny-isaac/">Proceed</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

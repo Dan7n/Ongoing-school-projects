@@ -119,4 +119,24 @@ footer {
     padding: 0;
     font-size: 1.8rem;
     background-color: #333 !important;
+    color: #0096c7;
+    overflow: hidden;
+}
+
+.icon:hover {
+    transform: scale(1.7);
+    transition: ease-in-out 0.6s;
+}
+
+.modal {
+    color: black;
+}
+
+button>a {
+    color: white;
+}
+
+button>a:hover {
+    text-decoration: none;
+    color: white;
 }
